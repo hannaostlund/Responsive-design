@@ -1,0 +1,50 @@
+$main-black-color: #242635;
+$header-font: 'Poppins', sans-serif;
+$main-font: 'Source Sans 3', sans-serif;
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white; 
+    font-family: $main-font;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px; /* 140% */
+}
+
+.logo {
+    color: $main-black-color;
+    font-family: Aldrich;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 150% */
+    letter-spacing: -0.25px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: $main-black-color;
+}
+
+.mobile-menu-icon {
+    display: none; 
+}
+ 
+@media screen and (max-width: 320px) {
+    .navbar a {
+        display: none; 
+    }
+    
+    .mobile-menu-icon {
+        display: block;
+    }
+}
