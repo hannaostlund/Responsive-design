@@ -28,11 +28,21 @@
     </header>
 
     <main>
+        <!-- Text content -->
         <div class="text-container">
             <h1>Patagonia</h1>
             <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcor.</p>
         </div>
 
+        <!-- Responsive image -->
+        <div class="pic">
+            <picture>
+                <source media="(min-width: 1440px)" srcset="./images/img1.png">
+                <source media="(max-width: 768px)" srcset="./images/img2.png">
+                <source media="(max-width: 320px)" srcset="./images/img3.jpg">
+                <img src="./images/img1.png" alt="Patagonia">
+            </picture>
+        </div>
     </main>
     
 </body>
