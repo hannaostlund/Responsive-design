@@ -5,7 +5,7 @@ body {
   min-height: 100vh;
   background-color: #ffffff;
   overflow: hidden;
-  margin: 0;
+  margin: auto;
   max-width: 864px;
 }
 
@@ -105,6 +105,10 @@ p {
 
 .text-container {
   margin-bottom: 20px;
+}
+
+.pic {
+  max-width: 100%;
 }
 
 @media screen and (max-width: 620px) {
